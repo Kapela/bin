@@ -1,0 +1,6 @@
+
+export PATH=$PATH:~/bin
+
+#Path for Bower package manager
+PATH="/usr/local/share/npm/bin:$PATH"
+# Set PATH, CDPATH, EDITOR, etc.
