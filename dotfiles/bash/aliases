@@ -57,6 +57,7 @@ alias chrome='open -a /Applications/Google\ Chrome.app'
 
 alias testw='npm run-script watch'
 alias testm='npm run-script test'
+alias devserver='npm run-script devserver'
 
 # General code
 
