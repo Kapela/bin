@@ -9,6 +9,7 @@ alias cg='cd /Library/Ruby/Gems/1.8/gems/'
 # alias cdnpm = 'cd /Users/kevinallen/lib/node_modules/npm'
 alias cdnode='cd /Users/kevinallen/Sites/node'
 alias cdrails='cd /Users/kevinallen/Sites/rails'
+alias cdpeep='cd ~/Dropbox/Design/Peepcode'
 
 function cr() {
  cd ~/repos/$*
