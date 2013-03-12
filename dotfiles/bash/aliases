@@ -8,6 +8,7 @@ alias ee="vim ~/bin/dotfiles/bash/env"
 alias cg='cd /Library/Ruby/Gems/1.8/gems/'
 # alias cdnpm = 'cd /Users/kevinallen/lib/node_modules/npm'
 alias cdnode='cd /Users/kevinallen/Sites/node'
+alias cdback='cd /Users/kevinallen/Sites/backbone'
 alias cdrails='cd /Users/kevinallen/Sites/rails'
 alias cdpeep='cd ~/Dropbox/Design/Peepcode'
 
@@ -16,6 +17,7 @@ function cr() {
 }
 
 alias checkport='ps aux | grep node'
+# kill -9 PID
 
 # Common -- Some are from Damian Conway
 alias a='ls -A' # -A all except literal . ..
