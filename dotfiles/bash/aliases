@@ -3,6 +3,7 @@
 # Utility
 alias ea='vim ~/bin/dotfiles/bash/aliases' # Edit aliases
 alias ee="vim ~/bin/dotfiles/bash/env"
+alias eg='vim ~/bin/dotfiles/bash/git' #Edit git
 
 # Quicker cd
 alias cg='cd /Library/Ruby/Gems/1.8/gems/'
@@ -108,6 +109,7 @@ alias gpo='git push origin master'
 alias gst='git status'
 alias gt='git status'
 alias g='git status'
+alias gs='git status --short'
 alias eg='vim .git/config'
 # Git clone from GitHub
 function gch() {
