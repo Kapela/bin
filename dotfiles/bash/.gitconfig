@@ -1,0 +1,55 @@
+[user]
+	name = Kevin Allen
+	email = kevin.allen1994@gmail.com
+[alias]
+	co = checkout
+  st = status
+  ci = commit
+  br = branch
+  co = checkout
+  df = diff
+  dc = diff --cached
+  lg = log -p
+
+  # Log display from screencast, with train tracks.
+  l = log --graph --pretty=format':%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar %Creset'
+  la = log --graph --all --pretty=format':%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar %Creset'
+  lg1 = log --graph --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(bold white)— %an%C(reset)%C(bold yellow)%d%C(reset)' --abbrev-commit --date=relative
+  lg2 = log --graph --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(bold white)— %an%C(reset)' --abbrev-commit
+  lg = !"git lg1"
+
+  # Alternate log display from Scott Chacon
+  lol = log --pretty=oneline --abbrev-commit --graph
+  
+  # Other useful aliases:
+  unstage = reset HEAD
+  staged = diff --cached
+  unstaged = diff
+  current-branch = !git symbolic-ref -q HEAD | sed -e 's|^refs/heads/||'
+
+  # Usage: git track origin/feature-123-login-form
+  track = checkout -t
+
+
+[apply]
+  whitespace = warn
+
+[color]
+  diff= auto
+  status = auto
+  branch = auto
+  ui = true
+  
+[help]
+  autocorrect = 1
+
+[status]
+  submodule = 1
+[core]
+	editor = vim -w
+[credential]
+	helper = osxkeychain
+[push]
+	default = matching
+[i18n]
+  commitencoding = ISO-8859-1

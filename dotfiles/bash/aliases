@@ -99,6 +99,7 @@ alias gca='git commit -v -a'
 function gg() { 
     git commit -v -a -m "$*"
 }
+alias ga='git add .'
 alias gco='git checkout'
 alias gd='git diff'
 alias gdm='git diff master'
