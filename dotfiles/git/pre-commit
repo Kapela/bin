@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+num a = 'mocha -R json | grep failures -m1 | awk '{ print $2 }''
+
+if [ $num != '0,']; then
+  echo "Tests do not pass"
+  exit 1
+fi
