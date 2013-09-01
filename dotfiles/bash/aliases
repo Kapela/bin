@@ -69,6 +69,8 @@ alias grcoffee='grunt coffee'
 alias grwcoffee='grunt watch coffee'
 alias grcompass='grunt compass'
 alias grwcompass='grunt watch compass'
+alias grjslint='grunt jslint'
+alias jrwjslint='grunt watch jslint'
 alias grw='grunt watch'
 
 # Mocha
