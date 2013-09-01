@@ -59,6 +59,18 @@ alias o='open . &'
 alias ff='open -a Firefox'
 alias chrome='open -a /Applications/Google\ Chrome.app'
 
+# Grunt
+#
+alias grphantom= 'grunt mocha-phantomjs'
+alias grwphantom= 'grunt watch mocha-phantomjs'
+alias grjade= 'grunt jade'
+alias grwjade= 'grunt watch jade'
+alias grcoffee= 'grunt coffee'
+alias grwcoffee= 'grunt watch coffee'
+alias grcompass= 'grunt compass'
+alias grwcompass= 'grunt watch compass'
+alias grw= 'grunt watch'
+
 # Mocha
 
 alias testw='npm run-script watch'
