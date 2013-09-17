@@ -61,8 +61,6 @@ alias chrome='open -a /Applications/Google\ Chrome.app'
 
 # Grunt
 #
-alias grphantom='grunt mocha-phantomjs'
-alias grwphantom='grunt watch mocha-phantomjs'
 alias grjade='grunt jade'
 alias grwjade='grunt watch jade'
 alias grcoffee='grunt coffee'
@@ -130,6 +128,9 @@ alias eg='vim .git/config'
 function gch() {
   git clone git://github.com/$USER/$1.git
 }
+
+alias lg1='log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all'
+alias lg2='log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all'
 
 # Setup a tracking branch from [remote] [branch_name]
 function gbt() { 
