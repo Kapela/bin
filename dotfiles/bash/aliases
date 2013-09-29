@@ -4,6 +4,7 @@
 alias ea='vim ~/bin/dotfiles/bash/aliases' # Edit aliases
 alias ee="vim ~/bin/dotfiles/bash/env"
 alias eg='vim ~/bin/dotfiles/bash/git' #Edit git
+alias v='vim .'
 
 # Quicker cd
 alias cg='cd /Library/Ruby/Gems/1.8/gems/'
